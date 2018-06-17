@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="FreemarkerWordDemo" />
         <module name="WebPeojectDemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="FreemarkerWordDemo" target="1.7" />
       <module name="WebPeojectDemo" target="1.7" />
     </bytecodeTargetLevel>
   </component>
