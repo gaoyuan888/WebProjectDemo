@@ -1,4 +1,4 @@
-package com.zyx.model;
+package com.yyz.domain;
 
 import java.util.Date;
 

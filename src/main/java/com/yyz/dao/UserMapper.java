@@ -1,4 +1,4 @@
-package com.zyx.dao;
+package com.yyz.dao;
 
 
 public interface UserMapper {

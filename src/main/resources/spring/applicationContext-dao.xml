@@ -27,7 +27,7 @@
     </bean>
     <!-- 配置Mapper扫描器 -->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.zyx.dao"/>
+        <property name="basePackage" value="com.yyz.dao"/>
     </bean>
 
 </beans>

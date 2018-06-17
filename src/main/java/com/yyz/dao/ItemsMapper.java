@@ -1,6 +1,6 @@
-package com.zyx.dao;
+package com.yyz.dao;
 
-import com.zyx.model.Items;
+import com.yyz.domain.Items;
 
 import java.util.List;
 

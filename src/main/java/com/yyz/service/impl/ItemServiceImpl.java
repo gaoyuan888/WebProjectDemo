@@ -1,8 +1,8 @@
-package com.zyx.service.impl;
+package com.yyz.service.impl;
 
-import com.zyx.dao.ItemsMapper;
-import com.zyx.model.Items;
-import com.zyx.service.ItemService;
+import com.yyz.dao.ItemsMapper;
+import com.yyz.domain.Items;
+import com.yyz.service.ItemService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

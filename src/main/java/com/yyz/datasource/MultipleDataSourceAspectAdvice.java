@@ -1,7 +1,7 @@
-package com.zyx.datasource;
+package com.yyz.datasource;
 
-import com.zyx.service.ItemService;
-import com.zyx.service.ItemService1;
+import com.yyz.service.ItemService;
+import com.yyz.service.ItemService1;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 @Aspect
 public class MultipleDataSourceAspectAdvice {
 
-    @Around("execution(* com.zyx.service.*.*(..))")
+    @Around("execution(* com.yyz.service.*.*(..))")
     public Object doAround(ProceedingJoinPoint jp) throws Throwable {
         if (jp.getTarget() instanceof ItemService) {
             MultipleDataSource.setDataSourceKey("dataSource1");

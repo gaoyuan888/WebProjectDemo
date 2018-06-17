@@ -45,7 +45,7 @@
         <property name="minEvictableIdleTimeMillis" value="${jdbc.minEvictableIdleTimeMillis}"/>
     </bean>
 
-    <bean id="multipleDataSource" class="com.zyx.datasource.MultipleDataSource">
+    <bean id="multipleDataSource" class="com.yyz.datasource.MultipleDataSource">
         <property name="defaultTargetDataSource" ref="dataSource1"/>
         <property name="targetDataSources">
             <map>
@@ -65,10 +65,10 @@
     </bean>
     <!-- 配置Mapper扫描器 -->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.zyx.dao"/>
+        <property name="basePackage" value="com.yyz.dao"/>
     </bean>
 
-    <context:component-scan base-package="com.zyx.datasource"/>
+    <context:component-scan base-package="com.yyz.datasource"/>
     <aop:aspectj-autoproxy/>
 
 </beans>

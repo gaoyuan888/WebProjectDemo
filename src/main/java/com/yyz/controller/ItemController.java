@@ -1,8 +1,8 @@
-package com.zyx.controller;
+package com.yyz.controller;
 
-import com.zyx.model.Items;
-import com.zyx.service.ItemService;
-import com.zyx.service.ItemService1;
+import com.yyz.domain.Items;
+import com.yyz.service.ItemService;
+import com.yyz.service.ItemService1;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

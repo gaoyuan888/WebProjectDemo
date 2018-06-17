@@ -27,7 +27,7 @@
     <!-- 切面 -->
     <aop:config>
         <aop:advisor advice-ref="txAdvice"
-                     pointcut="execution(* com.zyx.service.*.*(..))"/>
+                     pointcut="execution(* com.yyz.service.*.*(..))"/>
     </aop:config>
 
 </beans>

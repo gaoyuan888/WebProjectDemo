@@ -1,7 +1,7 @@
-package com.zyx.service;
+package com.yyz.service;
 
 
-import com.zyx.model.Items;
+import com.yyz.domain.Items;
 
 import java.util.List;
 
