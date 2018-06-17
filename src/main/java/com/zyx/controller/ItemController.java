@@ -33,7 +33,6 @@ public class ItemController {
 
 
 
-
     @RequestMapping("/itemList1")
     public ModelAndView getItemsList1() {
         // 查询商品列表
