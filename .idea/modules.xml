@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/FreemarkerWordDemo.iml" filepath="$PROJECT_DIR$/FreemarkerWordDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/WebPeojectDemo.iml" filepath="$PROJECT_DIR$/WebPeojectDemo.iml" />
-    </modules>
-  </component>
-</project>
