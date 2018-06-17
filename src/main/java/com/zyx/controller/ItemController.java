@@ -31,10 +31,6 @@ public class ItemController {
         return modelAndView;
     }
 
-
-
-
-
     @RequestMapping("/itemList1")
     public ModelAndView getItemsList1() {
         // 查询商品列表
